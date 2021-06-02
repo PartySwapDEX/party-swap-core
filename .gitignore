@@ -1,0 +1,6 @@
+node_modules/
+build/
+.env
+migrations
+.github/
+truffle-config.js
