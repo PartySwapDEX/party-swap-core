@@ -1,0 +1,27 @@
+Metadata of "partyfactory" was published successfully.
+contracts/PartyERC20.sol : 
+ipfs://QmYSZbXrTyn9ZCY1hPBAnEaUbR6cCzUYjVXmcJbKnmPKg6
+contracts/PartyFactory.sol : 
+ipfs://QmWqkQh76MghjuE2WEZspP6jkoaKhizstcbVgXHJKY61mU
+contracts/PartyPair.sol : 
+ipfs://Qme6GuMygSs7uL85vc7Wpfk4xckJhM2TWMuY7n4UX6Rm9L
+contracts/interfaces/IERC20.sol : 
+ipfs://QmSyY7iTugbczPwfGK67etiyPULenYGzzRYbt8aabwwkUb
+contracts/interfaces/IPartyCallee.sol : 
+ipfs://QmX7yyZYNBd9r6Vydr1sa8zYy4nRUR2d3c5kL2vFAfjyA3
+contracts/interfaces/IPartyERC20.sol : 
+ipfs://QmSuRiJpMjuw7Wba55Ts8YP22RwWVqkpM2AMWfjUbzmCJQ
+contracts/interfaces/IPartyFactory.sol : 
+ipfs://QmW9szkt2VXdkbtJrQAYSvJCcvs1yF2FYsb7jnm1LaRrHr
+contracts/interfaces/IPartyPair.sol : 
+ipfs://QmTETA8ePvn3haziozd6y6FAng8HokhZxE4MLyu8eGXFRa
+contracts/libraries/Math.sol : 
+ipfs://QmWBa9BsCH8gbncvDFXmfMJX1USTHvAREtc8C7nz6miQpw
+contracts/libraries/SafeMath.sol : 
+ipfs://QmTUg31wK9UyX6o1Q1mxE4DQhuc1rWGBanNTu1uagNVQB6
+contracts/libraries/UQ112x112.sol : 
+ipfs://QmYrzUurXL8ijzS8EnLtQTVD7fKPReosg2DsEPXXCY7ec3
+metadata.json : 
+ipfs://QmTJ4Jtxzzz1xoyfuZwyKJ9JeoMeKyV9DT3L9arotpAzNu
+
+PartyFactory Address at Avalanche: 0x7aA32b4C676B2C99F28dD257741c5cFAF1cF3354
