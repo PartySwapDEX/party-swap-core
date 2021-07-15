@@ -8,7 +8,7 @@ contract PartyERC20 is IPartyERC20 {
 
     string public constant name = 'YAY Liquidity';
     string public constant symbol = 'xYAY';
-    uint8 public constant decimals = 18;
+    uint8 public constant decimals = 10;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;
@@ -100,14 +100,13 @@ contract PartyERC20 is IPartyERC20 {
         bytes32 s
     ) external {
         require(deadline >= block.timestamp, 'Party: EXPIRED');
-        bytes32 digest =
-            keccak256(
-                abi.encodePacked(
-                    '\x19\x01',
-                    DOMAIN_SEPARATOR,
-                    keccak256(abi.encode(PERMIT_TYPEHASH, owner, spender, value, nonces[owner]++, deadline))
-                )
-            );
+        bytes32 digest = keccak256(
+            abi.encodePacked(
+                '\x19\x01',
+                DOMAIN_SEPARATOR,
+                keccak256(abi.encode(PERMIT_TYPEHASH, owner, spender, value, nonces[owner]++, deadline))
+            )
+        );
         address recoveredAddress = ecrecover(digest, v, r, s);
         require(recoveredAddress != address(0) && recoveredAddress == owner, 'Party: INVALID_SIGNATURE');
         _approve(owner, spender, value);
