@@ -31,7 +31,7 @@ describe('PartyERC20', () => {
     const name = await token.name()
     expect(name).to.eq('YAY Liquidity')
     expect(await token.symbol()).to.eq('xYAY')
-    expect(await token.decimals()).to.eq(18)
+    expect(await token.decimals()).to.eq(10)
     expect(await token.totalSupply()).to.eq(TOTAL_SUPPLY)
     expect(await token.balanceOf(wallet.address)).to.eq(TOTAL_SUPPLY)
     expect(await token.DOMAIN_SEPARATOR()).to.eq(
