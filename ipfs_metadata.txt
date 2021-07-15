@@ -25,3 +25,25 @@ metadata.json :
 ipfs://QmTJ4Jtxzzz1xoyfuZwyKJ9JeoMeKyV9DT3L9arotpAzNu
 
 PartyFactory Address at Avalanche: 0x7aA32b4C676B2C99F28dD257741c5cFAF1cF3354
+
+=====================
+
+   Deploying 'PartyFactory' TO FUJI
+   ------------------------
+   > transaction hash:    0x5d65e572179be1d98274b0146cbc9e6726ed5f17de7bab6cd1338a3805a5eebd
+   > Blocks: 1            Seconds: 5
+   > contract address:    0xff5ECe41095a0eD8b9C0A66337F34C4Df2f58b7f
+   > block number:        476112
+   > block timestamp:     1626314377
+   > account:             0x3b73F15142945f260148aDa3Db15b0657D12831C
+   > balance:             6.364698797711005307
+   > gas used:            2427881 (0x250be9)
+   > gas price:           470 gwei
+   > value sent:          0 ETH
+   > total cost:          1.14110407 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          1.14110407 ETH
