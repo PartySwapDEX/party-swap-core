@@ -17,6 +17,7 @@ Deploying 'PartyFactory'
 - gas price: 470 gwei
 - value sent: 0 ETH
 - total cost: 1.14110971 ETH
+- INIT_CODE_PAIR_HASH: 0x70b87c353c4c3fc263074ac4cd6669c4f67dffaf7638b82430aca673a6b2ae88
 
 - Saving migration to chain.
 - Saving artifacts
