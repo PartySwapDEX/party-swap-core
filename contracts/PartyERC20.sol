@@ -8,7 +8,7 @@ contract PartyERC20 is IPartyERC20 {
 
     string public constant name = 'YAY Liquidity';
     string public constant symbol = 'xYAY';
-    uint8 public constant decimals = 10;
+    uint8 public constant decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;

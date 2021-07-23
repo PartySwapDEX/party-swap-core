@@ -1,0 +1,403 @@
+{
+  "contractName": "IPartyCallee",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount0",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount1",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "partyCall",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"partyCall\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/pedro/Documents/projects/avalabs/party-swap/party-swap-core/contracts/interfaces/IPartyCallee.sol\":\"IPartyCallee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/pedro/Documents/projects/avalabs/party-swap/party-swap-core/contracts/interfaces/IPartyCallee.sol\":{\"keccak256\":\"0x41b903706bcda36e3dd82f038db85615b12376878953f76e70aa0468034d83e4\",\"urls\":[\"bzz-raw://8ee0a45e42617288fcb06452baddfd99f4c3e2417d97315e7268483536210a36\",\"dweb:/ipfs/QmX7yyZYNBd9r6Vydr1sa8zYy4nRUR2d3c5kL2vFAfjyA3\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity >=0.5.0;\n\ninterface IPartyCallee {\n    function partyCall(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n",
+  "sourcePath": "/home/pedro/Documents/projects/avalabs/party-swap/party-swap-core/contracts/interfaces/IPartyCallee.sol",
+  "ast": {
+    "absolutePath": "/home/pedro/Documents/projects/avalabs/party-swap/party-swap-core/contracts/interfaces/IPartyCallee.sol",
+    "exportedSymbols": {
+      "IPartyCallee": [
+        1766
+      ]
+    },
+    "id": 1767,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1754,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 1766,
+        "linearizedBaseContracts": [
+          1766
+        ],
+        "name": "IPartyCallee",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 1765,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "partyCall",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1763,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1756,
+                  "name": "sender",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "74:14:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1755,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "74:7:5",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1758,
+                  "name": "amount0",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "90:12:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1757,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "90:4:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1760,
+                  "name": "amount1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "104:12:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1759,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "104:4:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1762,
+                  "name": "data",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "118:19:5",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1761,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "118:5:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "73:65:5"
+            },
+            "returnParameters": {
+              "id": 1764,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "147:0:5"
+            },
+            "scope": 1766,
+            "src": "55:93:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1767,
+        "src": "26:124:5"
+      }
+    ],
+    "src": "0:151:5"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/pedro/Documents/projects/avalabs/party-swap/party-swap-core/contracts/interfaces/IPartyCallee.sol",
+    "exportedSymbols": {
+      "IPartyCallee": [
+        1766
+      ]
+    },
+    "id": 1767,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1754,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 1766,
+        "linearizedBaseContracts": [
+          1766
+        ],
+        "name": "IPartyCallee",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "id": 1765,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "partyCall",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1763,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1756,
+                  "name": "sender",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "74:14:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1755,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "74:7:5",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1758,
+                  "name": "amount0",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "90:12:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1757,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "90:4:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1760,
+                  "name": "amount1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "104:12:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1759,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "104:4:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1762,
+                  "name": "data",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1765,
+                  "src": "118:19:5",
+                  "stateVariable": false,
+                  "storageLocation": "calldata",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes_calldata_ptr",
+                    "typeString": "bytes"
+                  },
+                  "typeName": {
+                    "id": 1761,
+                    "name": "bytes",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "118:5:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes_storage_ptr",
+                      "typeString": "bytes"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "73:65:5"
+            },
+            "returnParameters": {
+              "id": 1764,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "147:0:5"
+            },
+            "scope": 1766,
+            "src": "55:93:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1767,
+        "src": "26:124:5"
+      }
+    ],
+    "src": "0:151:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.5",
+  "updatedAt": "2021-07-23T01:16:11.886Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
