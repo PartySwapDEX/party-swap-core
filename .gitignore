@@ -1,4 +1,6 @@
 node_modules/
 .env
 migrations
+truffle-config.js
 .github/
+contracts/Migration.sol
