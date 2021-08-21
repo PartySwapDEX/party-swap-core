@@ -26,28 +26,26 @@ Replacing 'PartyFactory'
 
 ---
 
-Deploying 'PartyFactory'
+Replacing 'PartyFactory'
 
 ---
 
-- transaction hash: 0x37284174c80cf41dd442a0a45bf66ebe6a8abfd6105165d951699d8d420126bd
-- Blocks: 1 Seconds: 5
-- contract address: 0x8d375aEF8FDe14951b9B3B169A0E02f31f1634D2
-- block number: 569377
-- block timestamp: 1627003005
+- transaction hash: 0x27a2b9c3443fcd6152b6e2213e65e395b4853e2bdaa0625b3206a151e31f81ee
+- Blocks: 0 Seconds: 0
+- contract address: 0x79D0b125CEA315aAB0Bb1BC2322287D3EBB88E47
+- block number: 840935
+- block timestamp: 1629554705
 - account: 0x3b73F15142945f260148aDa3Db15b0657D12831C
-- balance: 9.206423295
-- gas used: 2427893 (0x250bf5)
-- gas price: 470 gwei
+- balance: 16.181847018904306
+- gas used: 2416202 (0x24de4a)
+- gas price: 225 gwei
 - value sent: 0 ETH
-- total cost: 1.14110971 ETH
-- INIT_CODE_PAIR_HASH: 0x70b87c353c4c3fc263074ac4cd6669c4f67dffaf7638b82430aca673a6b2ae88
+- total cost: 0.54364545 ETH
+- INIT CODE PAIR HASH: 0xaff9bd86cf227c7b7b318a583c8d4fb43edeac6db90224c7a831e27d051c3124
 
-- Saving migration to chain.
-- Saving artifacts
-
----
-
-- Total cost: 1.14110971 ETH
+* Saving migration to chain.
+* Saving artifacts
 
 ---
+
+- Total cost: 0.54364545 ETH

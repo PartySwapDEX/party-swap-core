@@ -6,8 +6,8 @@ import './libraries/SafeMath.sol';
 contract PartyERC20 is IPartyERC20 {
     using SafeMath for uint256;
 
-    string public constant name = 'YAY Liquidity';
-    string public constant symbol = 'xYAY';
+    string public constant name = 'xPARTY';
+    string public constant symbol = 'xPARTY';
     uint8 public constant decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
