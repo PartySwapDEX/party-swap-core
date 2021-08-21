@@ -1,7 +1,7 @@
 {
   "name": "@partyswap-libs/party-swap-core",
   "description": "🎛 Core contracts for the party protocol",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://partyswap.netlify.app/",
   "repository": {
     "type": "git",
