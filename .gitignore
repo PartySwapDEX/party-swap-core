@@ -3,4 +3,4 @@ node_modules/
 migrations
 truffle-config.js
 .github/
-contracts/Migration.sol
+contracts/Migrations.sol

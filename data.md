@@ -4,21 +4,17 @@ Replacing 'PartyFactory'
 
 ---
 
-- transaction hash: 0xaf25b16e490884c7735cfa92b536109f94766a899b69e1ae1ee4afc630897525
-- Blocks: 0 Seconds: 5
-- contract address: 0xaDA3DEf2cAc007496e85b52e854b0aAda6691353
-- block number: 2793286
-- block timestamp: 1627438346
+- transaction hash: 0x64a7621a383a8430a87eceea990714a5012b8678a0af6faf15eaf0ff270ae1e9
+- Blocks: 3 Seconds: 8
+- contract address: 0x58A08bc28f3E8dab8Fb2773D8f243bC740398b09
+- block number: 3237021
+- block timestamp: 1629684526
 - account: 0x3b73F15142945f260148aDa3Db15b0657D12831C
-- balance: 4.70082725
-- gas used: 2427893 (0x250bf5)
+- balance: 21.802539722009082222
+- gas used: 2416202 (0x24de4a)
 - gas price: 225 gwei
 - value sent: 0 ETH
-- total cost: 0.546275925 ETH
-
----
-
-- Total cost: 0.546275925 ETH
+- total cost: 0.54364545 ETH
 
 ---
 
