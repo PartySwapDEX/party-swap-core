@@ -15,6 +15,7 @@ Replacing 'PartyFactory'
 - gas price: 225 gwei
 - value sent: 0 ETH
 - total cost: 0.54364545 ETH
+- INIT CODE PAIR HASH: 0xaff9bd86cf227c7b7b318a583c8d4fb43edeac6db90224c7a831e27d051c3124
 
 ---
 
